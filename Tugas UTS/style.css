@@ -1,0 +1,151 @@
+body{
+	background-image: url(blob.jpeg);
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	background-attachment: fixed;
+	width:100%;
+    font-family: 'Jost', sans-serif;
+    margin: 0 auto;
+}
+
+.header{
+	width: 90%;
+	margin: auto;
+	height: 100%;
+	line-height: 120px;
+	background: rgba(0,0,0,0.75);
+	backdrop-filter: blur(10px);
+	border-radius: 10px;
+	box-shadow: 0 0 20px 0px black;
+	color: white;
+}
+
+.menu{
+	background-color: rgba(0,0,0,0.65);
+	backdrop-filter: blur(10px);
+	border-radius: 10px;
+	box-shadow: 0 0 20px 0px black;
+	height: 50px;
+	line-height: 50px;
+	position: relative;
+	width: 90%;
+	margin: 0 auto;
+	padding: 0 auto;
+}
+
+
+.menu ul {
+	list-style: none;
+}
+.menu ul li a {
+	float: left;
+	width: 120px;
+	display: block;
+	text-align: center;
+	color: white;
+	text-decoration: none;
+}
+
+.menu ul li a::after{
+	content: '';
+	width: 0%;
+	height: 2px;
+	display: block;
+	background-color: white;
+	border-radius: 100px;
+	margin: -10px;
+	transition: 0.5s;
+}
+.menu ul li a:hover::after{
+	width: 100%;
+	border-radius: 100px;
+}
+
+.content{
+	width: 90%;
+	margin: auto;
+	margin-top: 20px;
+	height: 100%;
+	padding: 0.1px;
+	display: flex;
+	background: rgba(255,255,255,0.13);
+	backdrop-filter: blur(10px);
+	box-shadow: 0 0 20px 0px black;
+	border-radius: 10px;
+	border: 2px solid rgba(255,255,255,0.1);
+	box-sizing: border-box;
+	color: white;
+}
+
+.row{
+	margin-top: 0pc;
+	padding-bottom: 1pc;
+	padding-left: 2pc;
+	padding-right: 2pc;
+}
+
+.hero-btn{
+	display: inline-block;
+	text-decoration: none;
+	border-radius: 100px;
+	color: #fff;
+	border: 1px solid #fff;
+	padding: 6px 15px;
+	font-size: 13px;
+	background: transparent;
+	position: relative;
+	cursor: pointer;
+}
+.hero-btn:hover{
+	background: rgba(0,0,0,0.65);
+	transition: 1s;
+}
+
+.content2{
+	width: 90%;
+	margin: auto;
+	margin-top: 20px;
+	height: 100%;
+	padding: 0.1px;
+	background: rgba(255,255,255,0.13);
+	backdrop-filter: blur(10px);
+	box-shadow: 0 0 20px 0px black;
+	border-radius: 10px;
+	border: 2px solid rgba(255,255,255,0.1);
+	box-sizing: border-box;
+	color: white;
+}
+
+.border{
+	margin-top: 0pc;
+	padding-bottom: 1pc;
+	padding-left: 2pc;
+	padding-right: 2pc;
+}
+
+.border p {
+	text-align: justify;
+}
+.border table {
+	margin-bottom: 20PX;
+	margin-top: 30PX;
+}
+
+.border table tr td strong {
+	font-size: 40px;
+	width: 100%;
+}
+
+.border table tr td img{
+	border-radius: 50%;
+	height: 200px;
+	width: 200px;
+	margin-right: 20px;
+	border: 2px solid white;
+}
+
+.border img {
+	border-bottom-right-radius: 30px;
+	border-top-left-radius: 30px;
+}
